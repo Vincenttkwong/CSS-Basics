@@ -1,0 +1,53 @@
+h2 {
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-s;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+p {
+    margin-bottom: 5px;
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+}
+<!--targetor that is most specific gets piority however, base class get no piority-->
+
+.article-title {
+    font-weight: 700;
+}
+
+.body {
+    color: rgb(20, 20, 20);
+    font-size:  16px;
+    font-weight: 400;
+}
+
+#Watch-Video {
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-s;
+    font-weight: 700;
+
+}
+
+.caption {
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: blue;
+}
+
+.span-example {
+    color: black;
+    text-decoration: underline;
+}
+
+.shop-now {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.shop-now:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
